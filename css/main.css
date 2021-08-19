@@ -19,8 +19,8 @@ p
     margin-right: 20px;
 }
 
-.header ul
+.header .top
 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
