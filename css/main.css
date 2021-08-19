@@ -24,3 +24,8 @@ p
     display: flex;
     justify-content: space-between;
 }
+
+.header .couleur
+{
+    background-color: #1973fc;
+}
