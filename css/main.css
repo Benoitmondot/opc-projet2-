@@ -29,3 +29,9 @@ p
 {
     background-color: #1973fc;
 }
+
+.header .filtres
+{
+    display: flex;
+    justify-content: flex-start;
+}
