@@ -1,9 +1,26 @@
 body 
 {
-    background-color: beige;
+    background-color: bleu#0065FC ;
 }
 
-<p>
+p
 {
     font-family: raleway; 
 }   
+
+.header ul
+{
+    list-style: none;
+}
+
+.header ul li 
+{
+    float:left; 
+    margin-right: 20px;
+}
+
+.header ul
+{
+    display: flex;
+    justify-content: flex-end;
+}
