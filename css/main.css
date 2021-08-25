@@ -35,3 +35,21 @@ p
     display: flex;
     justify-content: flex-start;
 }
+
+.hebergement
+{
+    width: 33%;
+    height: 200px;
+}
+
+.hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
