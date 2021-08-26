@@ -1,6 +1,6 @@
 body 
 {
-    background-color: bleu#0065FC ;
+    background-color: bleu#0065FC;
 }
 
 p
@@ -50,6 +50,20 @@ p
 
 .hebergement img
 {
-    max-width: 33%;
-    max-height: auto;
+    object-fit: cover;
+}
+
+#blocks-hebergements
+{
+  display: flex;
+}
+
+#hebergement-a-marseille
+{
+    width: 66.66%;
+}
+
+#les-plus-populaires
+{
+    width:33.33%;
 }
