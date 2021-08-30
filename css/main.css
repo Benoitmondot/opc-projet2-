@@ -50,12 +50,14 @@ p
 
 .hebergement img
 {
+    max-width: 33%;
+    max-height: auto;
     object-fit: cover;
 }
 
 #blocks-hebergements
 {
-  display: flex;
+    display: flex;
 }
 
 #hebergement-a-marseille
@@ -65,5 +67,28 @@ p
 
 #les-plus-populaires
 {
-    width:33.33%;
+    width: 33.33%;
+}
+
+.populaire
+{
+    width: 33%;
+    height: auto;
+}
+
+.footer ul
+{
+    list-style: none;
+}
+
+.footer ul li
+{
+    float: left;
+    margin-right: 20%;
+}
+
+.footer  .top
+{
+    display: flex;
+    justify-content: space-between;
 }
