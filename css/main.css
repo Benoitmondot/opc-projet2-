@@ -50,9 +50,8 @@ p
 
 .hebergement img
 {
-    max-width: 33%;
-    max-height: auto;
-    object-fit: cover;
+    max-width: 100%;
+     object-fit: cover;
 }
 
 #blocks-hebergements
@@ -70,7 +69,7 @@ p
     width: 33.33%;
 }
 
-.populaire
+.populaire img
 {
     width: 33%;
     height: auto;
@@ -91,4 +90,29 @@ p
 {
     display: flex;
     justify-content: space-between;
+}
+
+.activite img
+{
+    width: 70%;
+    height: auto;
+}
+
+.activite
+{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+
+.heber
+{
+    object-fit: cover;
+}
+
+.activites
+{
+    display: flex;
+    flex-wrap: wrap;
 }
